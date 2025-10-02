@@ -39,8 +39,8 @@ updates:
     schedule:
       interval: "weekly"
 
-  - package-ecosystem: "gomod"
-    directory: "/install"
+  - package-ecosystem: "Corgo"
+    directory: "/"
     schedule:
       interval: "daily"
     groups:
