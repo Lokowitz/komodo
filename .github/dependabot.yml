@@ -39,7 +39,7 @@ updates:
     schedule:
       interval: "weekly"
 
-  - package-ecosystem: "corgo"
+  - package-ecosystem: "cargo"
     directory: "/"
     schedule:
       interval: "daily"
