@@ -40,7 +40,7 @@ serror = { version = "0.5.1", default-features = false }
 slack = { version = "0.4.0", package = "slack_client_rs", default-features = false, features = ["rustls"] }
 derive_default_builder = "0.1.8"
 derive_empty_traits = "0.1.0"
-async_timing_util = "1.0.0"
+async_timing_util = "1.1.0"
 partial_derive2 = "0.4.3"
 derive_variants = "1.0.0"
 mongo_indexed = "2.0.2"
@@ -51,7 +51,7 @@ svi = "1.2.0"
 
 # ASYNC
 reqwest = { version = "0.12.23", default-features = false, features = ["json", "stream", "rustls-tls-native-roots"] }
-tokio = { version = "1.47.1", features = ["full"] }
+tokio = { version = "1.48.0", features = ["full"] }
 tokio-util = { version = "0.7.16", features = ["io", "codec"] }
 tokio-stream = { version = "0.1.17", features = ["sync"] }
 pin-project-lite = "0.2.16"
@@ -68,7 +68,7 @@ axum = { version = "0.8.4", features = ["ws", "json", "macros"] }
 
 # SER/DE
 ipnetwork = { version = "0.21.1", features = ["serde"] }
-indexmap = { version = "2.11.1", features = ["serde"] }
+indexmap = { version = "2.12.0", features = ["serde"] }
 serde = { version = "1.0.219", features = ["derive"] }
 strum = { version = "0.27.2", features = ["derive"] }
 bson = { version = "2.15.0" } # must keep in sync with mongodb version
@@ -116,7 +116,7 @@ sysinfo = "0.37.0"
 
 # CLOUD
 aws-config = "1.8.6"
-aws-sdk-ec2 = "1.167.0"
+aws-sdk-ec2 = "1.170.1"
 aws-credential-types = "1.2.6"
 
 ## CRON
@@ -134,6 +134,6 @@ octorust = "0.10.0"
 dashmap = "6.1.0"
 wildcard = "0.3.0"
 colored = "3.0.0"
-regex = "1.11.2"
-bytes = "1.10.1"
+regex = "1.12.2"
+bytes = "1.11.0"
 shell-escape = "0.1.5"
